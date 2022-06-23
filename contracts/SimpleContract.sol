@@ -28,7 +28,7 @@ contract SimpleContract is ERC721, PullPayment, Ownable {
   string public baseTokenURI;
 
   //here's where we set the name and symbol
-  constructor() ERC721("SimpleToken10", "SIMPLE10") {
+  constructor() ERC721("SimpleToken11", "SIMPLE11") {
     baseTokenURI = "";
   }
   
